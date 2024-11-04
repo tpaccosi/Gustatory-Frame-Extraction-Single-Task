@@ -1,2 +1,2 @@
 # Gustatory-Information-Extraction-Single-Task
-Gustatory information extraction system with a single task approach
+This is the repository of Gustatory information extraction system with a single task approach
