@@ -65,5 +65,5 @@ Usage example:
 python3 extract_annotations.py --folder [predictions_folder] --tastewordtag Taste_Word --tags Taste_Source,Quality --stopwords stopwords.txt --output out.tsv
 ```
 
-## __Train the model__
+
 
