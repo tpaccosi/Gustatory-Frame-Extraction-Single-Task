@@ -8,7 +8,7 @@ then
   python3 train.py --hypsearch \
                                  --lang "english" \
                                  --fold 0 \
-                                 --model "xlm-roberta-large"
+                                 --model "bert-base-uncased"
 elif [ "$todo" == "train" ];
 then
   echo "Train the model."
@@ -18,7 +18,7 @@ then
                                  --learning_rate 2e-5 \
                                  --train_batch_size 4 \
                                  --train_epochs 3 \
-                                 --model "xlm-roberta-large"
+                                 --model "bert-base-uncased"
 
 elif [ "$todo" == "test" ];
 then
@@ -26,6 +26,6 @@ then
   python3 train.py --do_test \
                                  --lang "english" \
                                  --fold 0 \
-                                 --model "xlm-roberta-large/checkpoint-2055"
+                                 --model "bert-base-uncased/checkpoint-2055"
 
 fi                            
