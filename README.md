@@ -55,7 +55,7 @@ The script `extract_annotations.py` takes as input the folder with the predictio
 
 --stopwords: file containing stopwords to be ignored during the extraction (optional)
 
---smellwordtag: Label used for the smell word (usualle Smell_Word or Smell\_Word)
+--tastewordtag: Label used for the taste word (usualle Taste_Word or Taste\_Word)
 
 --tags: List of the frame elements to extract separated by ,
 
