@@ -64,6 +64,8 @@ Usage example:
 ```
 python3 extract_annotations.py --folder [predictions_folder] --tastewordtag Taste_Word --tags Taste_Source,Quality --stopwords stopwords.txt --output out.tsv
 ```
+## Funding acknowledgement
 
+Funded by the European Union under grant agreement 101088548 -TRIFECTA (https://trifecta.dhlab.nl/). 
 
 
